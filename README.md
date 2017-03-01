@@ -1,0 +1,1 @@
+This is my second project made for The Odin Project.Here we can see the sum of all multiples of 3 or 5.

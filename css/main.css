@@ -1,0 +1,95 @@
+body {
+    background-color: #523620;
+    color: #fff;
+    font-family: 'Wellfleet', times, serif;
+    font-size: 150%;
+    margin: 0;
+}
+
+.page {
+    background-color: #fecc6f;
+    height: 703px;
+    padding: 10px;
+    position: relative;
+}
+
+.heading {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.prof-img {
+    position: absolute;
+    left: 14%;
+    bottom: -15%;
+    width: 400px;
+    z-index: 1;
+}
+
+.board {
+    height: 370px;
+    width: 600px;
+    background-color: #425a5a;
+    border: 25px solid #523620;
+    border-radius: 20px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+}
+
+.ques {
+    font-size: 70%;
+}
+
+.textBox1 {
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Wellfleet', times, serif;
+}
+
+.answ {
+    margin: 50px 0 60px 0;
+}
+
+.btn {
+    padding: 6px;
+    border: 1px solid #DD4B39;
+    color: white;
+    text-shadow: 0 1px 0 #C04131;
+    background: -webkit-linear-gradient(top, #DD4B39, #D14836);
+    background: -moz-linear-gradient(top, #DD4B39, #D14836);
+    background: -ms-linear-gradient(top, #DD4B39, #D14836);
+}
+
+.btn:hover {
+     background: -webkit-linear-gradient(top, #DD4B39, #C53727);
+     background: -moz-linear-gradient(top, #DD4B39, #C53727);
+     background: -ms-linear-gradient(top, #DD4B39, #C53727);
+     border: 1px solid #AF301F;
+}
+
+@media only screen and (max-width: 1010px) {
+    .textBox1, .answ, .btn {
+        float: right;
+        clear: both;
+    }
+    .ques {
+        font-size: 60%
+    }
+
+    .answ {
+        margin: 0;
+    }
+
+    .prof-img {
+        width: 300px;
+        left: -5%;
+    }
+
+    .board {
+        max-width: 325px;
+        left: 0;
+    }
+}
